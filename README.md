@@ -1,4 +1,4 @@
-# Microsoft 365 Productivity Guide
+# Microsoft 365
 
 Static HTML5 end-user guide for Microsoft Teams, OneDrive, and SharePoint. The guide is designed for GitHub Pages and can be hosted from the repository root without a build step.
 

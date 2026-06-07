@@ -4,7 +4,8 @@
   <rect width="1280" height="720" fill="#f7f9fc"/>
   <rect x="64" y="56" width="1152" height="608" rx="24" fill="#fff" stroke="#d8e0ea" stroke-width="2"/>
   <text x="96" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" fill="#111827">Governance Checks</text>
-  <text x="96" y="154" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#52616f">A practical end-user view of what to keep clean in Teams, OneDrive, and SharePoint.</text>
+  <text x="96" y="154" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#52616f">A practical end-user view of what to keep clean</text>
+  <text x="96" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#52616f">in Teams, OneDrive, and SharePoint.</text>
   <g font-family="Segoe UI, Arial, sans-serif">
     <g transform="translate(96 220)">
       <rect width="240" height="150" rx="18" fill="#eef2ff" stroke="#6264a7" stroke-width="3"/>
@@ -31,8 +32,11 @@
       <text x="24" y="118" font-size="15" fill="#4b5563">Links to narrow or expire</text>
     </g>
   </g>
-  <rect x="96" y="430" width="1080" height="154" rx="18" fill="#f8fafc" stroke="#d8e0ea"/>
-  <text x="126" y="476" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#111827">Monthly cleanup routine</text>
-  <text x="126" y="518" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#394150">Review owners, remove stale guest access, archive inactive channels, move durable content to SharePoint, and confirm critical files have version history.</text>
-  <text x="126" y="558" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#394150">End users should escalate unusual access, sensitive data exposure, or missing retention guidance to the site owner or IT team.</text>
+  <rect x="96" y="412" width="1080" height="226" rx="18" fill="#f8fafc" stroke="#d8e0ea"/>
+  <text x="126" y="466" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#111827">Monthly cleanup routine</text>
+  <text x="126" y="506" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#394150">Review owners, remove stale guest access,</text>
+  <text x="126" y="534" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#394150">and archive inactive channels.</text>
+  <text x="126" y="568" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#394150">Move durable content to SharePoint and confirm</text>
+  <text x="126" y="596" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#394150">critical files use version history.</text>
+  <text x="126" y="630" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#394150">Escalate unusual access or sensitive data exposure.</text>
 </svg>

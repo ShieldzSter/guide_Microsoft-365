@@ -43,6 +43,7 @@
       <line y1="62" x2="812" y2="62" stroke="#e5e9f2"/>
     </g>
   </g>
-  <rect x="356" y="556" width="424" height="54" rx="12" fill="#e8f3ff" stroke="#b7d8fb"/>
-  <text x="382" y="590" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#005a9e">Tip: check sharing and version history before sending a file link.</text>
+  <rect x="356" y="548" width="620" height="70" rx="12" fill="#e8f3ff" stroke="#b7d8fb"/>
+  <text x="382" y="578" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#005a9e">Tip: check sharing and version history</text>
+  <text x="382" y="604" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#005a9e">before sending a file link.</text>
 </svg>

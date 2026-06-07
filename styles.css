@@ -456,17 +456,18 @@ body.nav-collapsed .sidebar {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(360px, 1.1fr);
+  grid-template-columns: minmax(0, 0.88fr) minmax(380px, 1.12fr);
   gap: 34px;
   align-items: center;
 }
 
 .hero h1 {
   margin: 0;
-  max-width: 720px;
-  font-size: clamp(2.6rem, 7vw, 5.8rem);
-  line-height: 0.95;
+  max-width: 560px;
+  font-size: clamp(3rem, 5.8vw, 5.2rem);
+  line-height: 1;
   letter-spacing: 0;
+  overflow-wrap: anywhere;
 }
 
 .lead {
@@ -534,7 +535,8 @@ body.nav-collapsed .sidebar {
 
 .hero-media img {
   aspect-ratio: 16 / 9;
-  object-fit: cover;
+  object-fit: contain;
+  background: #fff;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow);

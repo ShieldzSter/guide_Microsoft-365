@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Microsoft 365 productivity workflow</title>
+  <desc id="desc">Synthetic workflow showing how to plan, meet, create, share, publish, and govern work in Microsoft 365.</desc>
+  <rect width="1280" height="720" fill="#fff"/>
+  <text x="86" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="800" fill="#111827">Productivity Workflow</text>
+  <text x="86" y="130" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#52616f">A repeatable pattern for getting work out of chat and into durable records.</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <g transform="translate(84 214)">
+      <rect width="260" height="132" rx="18" fill="#eef2ff" stroke="#6264a7" stroke-width="3"/>
+      <text x="28" y="48" font-size="22" font-weight="800" fill="#111827">1. Plan in Teams</text>
+      <text x="28" y="82" font-size="16" fill="#4b5563">Channel, owner, deadline,</text>
+      <text x="28" y="106" font-size="16" fill="#4b5563">and decision log.</text>
+    </g>
+    <g transform="translate(404 214)">
+      <rect width="260" height="132" rx="18" fill="#eef2ff" stroke="#6264a7" stroke-width="3"/>
+      <text x="28" y="48" font-size="22" font-weight="800" fill="#111827">2. Meet with purpose</text>
+      <text x="28" y="82" font-size="16" fill="#4b5563">Agenda, notes, tasks,</text>
+      <text x="28" y="106" font-size="16" fill="#4b5563">recording if needed.</text>
+    </g>
+    <g transform="translate(724 214)">
+      <rect width="260" height="132" rx="18" fill="#e8f3ff" stroke="#0078d4" stroke-width="3"/>
+      <text x="28" y="48" font-size="22" font-weight="800" fill="#111827">3. Draft in OneDrive</text>
+      <text x="28" y="82" font-size="16" fill="#4b5563">Coauthor privately, then</text>
+      <text x="28" y="106" font-size="16" fill="#4b5563">share the right link.</text>
+    </g>
+    <g transform="translate(244 426)">
+      <rect width="260" height="132" rx="18" fill="#e8f7f2" stroke="#008272" stroke-width="3"/>
+      <text x="28" y="48" font-size="22" font-weight="800" fill="#111827">4. Publish in SharePoint</text>
+      <text x="28" y="82" font-size="16" fill="#4b5563">Library, metadata, page,</text>
+      <text x="28" y="106" font-size="16" fill="#4b5563">or list as needed.</text>
+    </g>
+    <g transform="translate(564 426)">
+      <rect width="260" height="132" rx="18" fill="#fff4e5" stroke="#d97706" stroke-width="3"/>
+      <text x="28" y="48" font-size="22" font-weight="800" fill="#111827">5. Govern and improve</text>
+      <text x="28" y="82" font-size="16" fill="#4b5563">Permissions, versions,</text>
+      <text x="28" y="106" font-size="16" fill="#4b5563">retention, and owners.</text>
+    </g>
+  </g>
+  <path d="M354 280h40M674 280h40M854 356c0 60-176 60-196 70M514 492h40" stroke="#9aa5b1" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="m394 280-18-12v24Zm320 0-18-12v24Z" fill="#9aa5b1"/>
+</svg>

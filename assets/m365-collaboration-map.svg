@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Microsoft 365 collaboration map</title>
+  <desc id="desc">Synthetic training artwork showing Teams, OneDrive, and SharePoint working together.</desc>
+  <rect width="1280" height="720" fill="#f7f9fc"/>
+  <rect x="56" y="56" width="1168" height="608" rx="28" fill="#fff" stroke="#d8e0ea" stroke-width="2"/>
+  <text x="92" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2937">Microsoft 365 Collaboration Flow</text>
+  <text x="92" y="156" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#52616f">Use the right place for each kind of work, then connect the handoffs.</text>
+  <g transform="translate(110 240)">
+    <rect width="260" height="190" rx="18" fill="#eef2ff" stroke="#6264a7" stroke-width="3"/>
+    <circle cx="52" cy="58" r="24" fill="#6264a7"/>
+    <text x="88" y="64" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#202124">Teams</text>
+    <text x="34" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#394150">Discuss decisions</text>
+    <text x="34" y="142" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#394150">Run meetings</text>
+    <text x="34" y="172" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#394150">Coordinate work</text>
+  </g>
+  <g transform="translate(510 240)">
+    <rect width="260" height="190" rx="18" fill="#e8f3ff" stroke="#0078d4" stroke-width="3"/>
+    <path d="M52 86c16-34 64-32 78 0 20-10 54 4 54 34 0 23-18 42-42 42H54c-27 0-47-18-47-42 0-23 20-42 45-34Z" fill="#0078d4"/>
+    <text x="34" y="64" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#202124">OneDrive</text>
+    <text x="34" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#394150">Draft privately</text>
+    <text x="34" y="142" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#394150">Share links</text>
+    <text x="34" y="172" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#394150">Sync files</text>
+  </g>
+  <g transform="translate(910 240)">
+    <rect width="260" height="190" rx="18" fill="#e8f7f2" stroke="#008272" stroke-width="3"/>
+    <rect x="34" y="40" width="74" height="74" rx="14" fill="#008272"/>
+    <rect x="122" y="40" width="74" height="74" rx="14" fill="#2fb28f"/>
+    <text x="34" y="64" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#202124" transform="translate(0 92)">SharePoint</text>
+    <text x="34" y="154" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#394150">Publish team truth</text>
+    <text x="34" y="184" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#394150">Manage libraries</text>
+  </g>
+  <path d="M382 334h96" stroke="#8a94a6" stroke-width="6" stroke-linecap="round"/>
+  <path d="m480 334-24-16v32Z" fill="#8a94a6"/>
+  <path d="M782 334h96" stroke="#8a94a6" stroke-width="6" stroke-linecap="round"/>
+  <path d="m880 334-24-16v32Z" fill="#8a94a6"/>
+  <g transform="translate(184 506)">
+    <rect width="912" height="82" rx="18" fill="#f4f6f8" stroke="#d8e0ea"/>
+    <text x="36" y="51" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#1f2937">Rule of thumb:</text>
+    <text x="220" y="51" font-family="Segoe UI, Arial, sans-serif" font-size="23" fill="#394150">chat in Teams, draft in OneDrive, publish team-owned content in SharePoint.</text>
+  </g>
+</svg>

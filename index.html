@@ -1,0 +1,880 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A comprehensive HTML5 end-user guide for Microsoft Teams, OneDrive, and SharePoint with productivity workflows, screenshots, and step-by-step how-to guides.">
+  <meta name="theme-color" content="#2563eb">
+  <title>Microsoft 365 Productivity User Guide</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">365</span>
+      <div>
+        <span class="brand-title">Microsoft 365 Productivity Guide</span>
+        <span class="brand-subtitle">Teams, OneDrive, and SharePoint manual</span>
+      </div>
+    </div>
+    <div class="search-shell">
+      <label class="search" for="guideSearch">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+        <input id="guideSearch" type="search" placeholder="Search this guide" autocomplete="off" aria-controls="searchResults" aria-expanded="false">
+      </label>
+      <div id="searchResults" class="search-results" role="region" aria-label="Search results" aria-live="polite" hidden></div>
+    </div>
+    <div class="toolbar" aria-label="Guide tools">
+      <button id="navToggle" class="tool-button nav-toggle" type="button" aria-controls="guideNav" aria-expanded="true" aria-label="Hide navigation">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+      </button>
+      <button id="expandAll" class="tool-button" type="button" aria-label="Expand all details">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+      </button>
+      <button id="themeToggle" class="tool-button" type="button" aria-label="Toggle dark mode">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3a6.8 6.8 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      </button>
+      <button id="printButton" class="tool-button" type="button" aria-label="Print guide">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 9V3h12v6M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v7H6z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside id="guideNav" class="sidebar" aria-label="Guide navigation">
+      <div class="nav-panel-header">
+        <span>Guide Navigation</span>
+        <small>Sort and browse by section</small>
+      </div>
+      <div class="nav-sort" role="group" aria-label="Sort navigation">
+        <button class="active" type="button" data-nav-sort="section">Section</button>
+        <button type="button" data-nav-sort="title">Title A-Z</button>
+      </div>
+      <nav id="guideNavList">
+        <div class="nav-group" data-nav-group="Start">
+          <h2>Start</h2>
+          <a href="#overview" data-title="Overview" data-section="Start" title="Overview">Overview</a>
+          <a href="#quick-start" data-title="Quick Start" data-section="Start" title="Quick Start">Quick Start</a>
+          <a href="#before-you-begin" data-title="Before You Begin" data-section="Start" title="Before You Begin">Before You Begin</a>
+          <a href="#navigation" data-title="Microsoft 365 Navigation" data-section="Start" title="Microsoft 365 Navigation">Microsoft 365 Navigation</a>
+        </div>
+        <div class="nav-group" data-nav-group="Teams">
+          <h2>Teams</h2>
+          <a href="#teams-basics" data-title="Teams Basics" data-section="Teams" title="Teams Basics">Teams Basics</a>
+          <a href="#chat-channels" data-title="Chat, Channels, and Posts" data-section="Teams" title="Chat, Channels, and Posts">Chat, Channels, and Posts</a>
+          <a href="#meetings" data-title="Meetings and Calls" data-section="Teams" title="Meetings and Calls">Meetings and Calls</a>
+          <a href="#teams-files" data-title="Teams Files and Apps" data-section="Teams" title="Teams Files and Apps">Teams Files and Apps</a>
+        </div>
+        <div class="nav-group" data-nav-group="OneDrive">
+          <h2>OneDrive</h2>
+          <a href="#onedrive-basics" data-title="OneDrive Basics" data-section="OneDrive" title="OneDrive Basics">OneDrive Basics</a>
+          <a href="#sync-share" data-title="Syncing, Sharing, and Links" data-section="OneDrive" title="Syncing, Sharing, and Links">Syncing, Sharing, and Links</a>
+          <a href="#version-recovery" data-title="Version History and Recovery" data-section="OneDrive" title="Version History and Recovery">Version History and Recovery</a>
+        </div>
+        <div class="nav-group" data-nav-group="SharePoint">
+          <h2>SharePoint</h2>
+          <a href="#sharepoint-sites" data-title="SharePoint Sites" data-section="SharePoint" title="SharePoint Sites">SharePoint Sites</a>
+          <a href="#libraries" data-title="Document Libraries" data-section="SharePoint" title="Document Libraries">Document Libraries</a>
+          <a href="#pages-lists" data-title="Pages, News, and Lists" data-section="SharePoint" title="Pages, News, and Lists">Pages, News, and Lists</a>
+          <a href="#permissions" data-title="Permissions and Sharing" data-section="SharePoint" title="Permissions and Sharing">Permissions and Sharing</a>
+        </div>
+        <div class="nav-group" data-nav-group="Productivity">
+          <h2>Productivity</h2>
+          <a href="#productivity-workflows" data-title="Productivity Workflows" data-section="Productivity" title="Productivity Workflows">Productivity Workflows</a>
+          <a href="#scenario-guides" data-title="Scenario-Based Guides" data-section="Productivity" title="Scenario-Based Guides">Scenario-Based Guides</a>
+          <a href="#governance" data-title="Governance and Good Practice" data-section="Productivity" title="Governance and Good Practice">Governance and Good Practice</a>
+          <a href="#troubleshooting" data-title="Troubleshooting" data-section="Productivity" title="Troubleshooting">Troubleshooting</a>
+          <a href="#glossary" data-title="Glossary" data-section="Productivity" title="Glossary">Glossary</a>
+        </div>
+      </nav>
+    </aside>
+
+    <main id="main" class="content">
+      <section id="overview" class="hero guide-section">
+        <div class="hero-copy">
+          <p class="section-label">Microsoft 365 end-user manual</p>
+          <h1>Teams, OneDrive, and SharePoint Productivity Guide</h1>
+          <p class="lead">A practical user guide for working better with Microsoft Teams, OneDrive, and SharePoint: where to store work, how to share safely, how to run cleaner meetings, and how to turn conversations into durable team knowledge.</p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#quick-start">Start with the workflow</a>
+            <a class="secondary-action" href="#scenario-guides">Use scenario guides</a>
+          </div>
+          <div class="notice">
+            <strong>Important:</strong> Microsoft 365 is configurable. Your organization may change app availability, external sharing, Teams creation, retention, sensitivity labels, meeting recording, Copilot, guest access, and storage rules. Use this guide as a baseline and align it with internal policy.
+          </div>
+        </div>
+        <figure class="hero-media">
+          <img src="assets/m365-collaboration-map.svg" alt="Synthetic Microsoft 365 collaboration map showing Teams, OneDrive, and SharePoint">
+          <figcaption>Teams is best for conversation and coordination, OneDrive is best for personal drafts and controlled sharing, and SharePoint is best for team-owned content and publishing.</figcaption>
+        </figure>
+      </section>
+
+      <section id="quick-start" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Start here</p>
+          <h2>Quick Start: Pick the Right Tool</h2>
+          <p>Many productivity problems come from using the right app at the wrong stage. Use this workflow to decide where work should begin, where it should be discussed, and where the final version should live.</p>
+        </div>
+        <div class="workflow-explorer" aria-labelledby="workflowExplorerTitle">
+          <div>
+            <h3 id="workflowExplorerTitle">Clickable Microsoft 365 Workflow</h3>
+            <p>Click each step to see how a team should move work from idea to governed knowledge.</p>
+          </div>
+          <div class="workflow-map" aria-label="Interactive Microsoft 365 workflow">
+            <button type="button" class="hotspot active" data-hotspot="plan"><span>1</span>Plan</button>
+            <button type="button" class="hotspot" data-hotspot="meet"><span>2</span>Meet</button>
+            <button type="button" class="hotspot" data-hotspot="draft"><span>3</span>Draft</button>
+            <button type="button" class="hotspot" data-hotspot="share"><span>4</span>Share</button>
+            <button type="button" class="hotspot" data-hotspot="publish"><span>5</span>Publish</button>
+            <button type="button" class="hotspot" data-hotspot="govern"><span>6</span>Govern</button>
+            <button type="button" class="hotspot" data-hotspot="improve"><span>7</span>Improve</button>
+          </div>
+          <article class="workflow-detail" aria-live="polite">
+            <span id="workflowStepNumber">Step 1</span>
+            <h4 id="workflowStepTitle">Plan the workspace</h4>
+            <p id="workflowStepText">Decide whether the work needs a chat, channel, OneDrive draft, SharePoint library, list, or page. Name the owner, audience, deadline, and final location before files scatter.</p>
+          </article>
+        </div>
+        <div class="role-tabs interactive-panel" aria-labelledby="roleTabsTitle">
+          <div class="interactive-copy">
+            <p class="mini-label">Choose a daily lens</p>
+            <h3 id="roleTabsTitle">Role-Based Daily View</h3>
+            <p>Different users need different habits. Use these tabs to focus the guide on everyday actions.</p>
+          </div>
+          <div class="tab-buttons" role="tablist" aria-label="Role views">
+            <button class="active" type="button" data-role-tab="teams">Teams user</button>
+            <button type="button" data-role-tab="onedrive">File owner</button>
+            <button type="button" data-role-tab="sharepoint">Site member</button>
+            <button type="button" data-role-tab="manager">Manager</button>
+          </div>
+          <article class="role-panel" aria-live="polite">
+            <span id="rolePanelEyebrow">Teams user</span>
+            <h4 id="rolePanelTitle">Keep conversations actionable</h4>
+            <p id="rolePanelText">Use Teams to reduce scattered email, but do not let decisions disappear in chat. Post decisions, files, and action items in the correct channel.</p>
+            <ul id="rolePanelList">
+              <li>Use channel posts for topics the team needs to see.</li>
+              <li>Use chats for short-lived private coordination.</li>
+              <li>Turn meetings into notes, tasks, and shared files.</li>
+            </ul>
+          </article>
+        </div>
+        <div class="quick-grid">
+          <article>
+            <h3>Use Teams when</h3>
+            <p>You need conversation, meetings, quick decisions, channel announcements, task coordination, or a place where people can ask questions around shared work.</p>
+          </article>
+          <article>
+            <h3>Use OneDrive when</h3>
+            <p>You are drafting, storing personal work files, sharing a file with a small audience, recovering a previous version, or syncing your own files across devices.</p>
+          </article>
+          <article>
+            <h3>Use SharePoint when</h3>
+            <p>The content belongs to a team, department, project, process, or audience. SharePoint is where durable files, pages, lists, and governed knowledge should live.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="before-you-begin" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Access and expectations</p>
+          <h2>Before You Begin</h2>
+          <p>Teams, OneDrive, and SharePoint can store business records, confidential information, customer data, contracts, and internal decisions. Start by understanding access, ownership, and lifecycle expectations.</p>
+        </div>
+        <div class="callout-grid">
+          <article class="callout">
+            <h3>Know the data sensitivity</h3>
+            <p>Do not share files broadly when they include employee, customer, financial, legal, security, or regulated information. Use your organization's labels and sharing rules.</p>
+          </article>
+          <article class="callout">
+            <h3>Know the owner</h3>
+            <p>Every team, file, site, library, list, and page should have an owner. If no one owns it, no one will clean it, update it, or answer access questions later.</p>
+          </article>
+          <article class="callout">
+            <h3>Know the final home</h3>
+            <p>Before sharing a draft, decide whether the final version belongs in OneDrive, a Teams channel file library, or a SharePoint site/library.</p>
+          </article>
+        </div>
+        <details open>
+          <summary>Minimum information before creating a workspace</summary>
+          <ul>
+            <li>Business purpose and audience.</li>
+            <li>Owner, backup owner, and expected contributors.</li>
+            <li>Whether guests or external people are allowed.</li>
+            <li>Where final documents and records should be stored.</li>
+            <li>Whether retention, sensitivity labels, or approvals apply.</li>
+          </ul>
+        </details>
+      </section>
+
+      <section id="navigation" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Find your way around</p>
+          <h2>Microsoft 365 Navigation</h2>
+          <p>Most users move between the Microsoft 365 app launcher, Teams, OneDrive, SharePoint, Outlook, and Office web apps. Search and file context are often more reliable than remembering where something was originally opened.</p>
+        </div>
+        <figure class="section-art screenshot-figure">
+          <img src="assets/m365-collaboration-map.svg" alt="Synthetic screenshot showing how Microsoft 365 apps connect">
+          <figcaption>Start with the work context: conversation in Teams, personal file in OneDrive, team-owned content in SharePoint.</figcaption>
+        </figure>
+        <div class="screenshot-slots">
+          <article class="screenshot-card">
+            <strong>Navigation habit</strong>
+            <h3>Use search first</h3>
+            <p>Search by file name, person, team, channel, meeting title, keyword, or site name. If results look wrong, check the app, location, date, and permissions.</p>
+          </article>
+          <article class="screenshot-card">
+            <strong>Navigation habit</strong>
+            <h3>Watch the file location</h3>
+            <p>A file opened in Teams may live in SharePoint. A file shared from OneDrive still belongs to the person who owns that OneDrive.</p>
+          </article>
+          <article class="screenshot-card">
+            <strong>Navigation habit</strong>
+            <h3>Favorite key places</h3>
+            <p>Pin important Teams channels, follow SharePoint sites, add shortcuts to OneDrive when appropriate, and favorite frequently used files.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="teams-basics" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Teams foundation</p>
+          <h2>Teams Basics</h2>
+          <p>Teams is the collaboration hub for chat, channels, meetings, files, apps, and notifications. The best Teams users keep work visible without overwhelming everyone.</p>
+        </div>
+        <figure class="section-art screenshot-figure">
+          <img src="assets/teams-hub.svg" alt="Synthetic screenshot of Microsoft Teams with navigation, channels, posts, and files">
+          <figcaption>Synthetic Teams screenshot: teams and channels organize conversations, while channel files are backed by SharePoint.</figcaption>
+        </figure>
+        <div class="image-hotspot interactive-panel" aria-labelledby="searchHotspotTitle">
+          <div class="interactive-copy">
+            <p class="mini-label">Screenshot hotspot</p>
+            <h3 id="searchHotspotTitle">Read a Teams workspace</h3>
+            <p>Use the hotspot markers to understand the parts of a Teams workspace that matter for daily productivity.</p>
+          </div>
+          <div class="hotspot-image">
+            <img src="assets/teams-hub.svg" alt="Synthetic Teams screenshot with clickable training markers">
+            <button class="pin active" type="button" data-image-hotspot="rail" style="--x: 8%; --y: 50%;">Apps</button>
+            <button class="pin" type="button" data-image-hotspot="channel" style="--x: 26%; --y: 39%;">Channel</button>
+            <button class="pin" type="button" data-image-hotspot="posts" style="--x: 55%; --y: 45%;">Posts</button>
+            <button class="pin" type="button" data-image-hotspot="files" style="--x: 70%; --y: 71%;">Files</button>
+          </div>
+          <article class="image-hotspot-detail" aria-live="polite">
+            <span id="hotspotEyebrow">App rail</span>
+            <h4 id="hotspotTitle">Use the left rail to move between work modes</h4>
+            <p id="hotspotText">Activity, Chat, Teams, Calendar, Calls, Files, and apps are different work surfaces. Choose the surface that matches the job instead of treating Teams as one large chat box.</p>
+          </article>
+        </div>
+        <details open>
+          <summary>Step-by-step: set up your daily Teams view</summary>
+          <ol class="steps">
+            <li>Open Teams and review Activity for mentions, replies, reactions, and channel notifications.</li>
+            <li>Pin or show the apps you use daily, such as Chat, Teams, Calendar, Calls, Files, Planner, or Approvals.</li>
+            <li>Pin the channels where you have recurring work or decisions.</li>
+            <li>Hide or mute low-value channels instead of letting every channel compete for attention.</li>
+            <li>Use status, quiet hours, and notification settings to protect focus time.</li>
+          </ol>
+        </details>
+      </section>
+
+      <section id="chat-channels" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Conversation management</p>
+          <h2>Chat, Channels, and Posts</h2>
+          <p>Use chats for short-term private coordination. Use channels for work the team may need to find later. The more important the decision, the more visible and structured the post should be.</p>
+        </div>
+        <div class="decision-grid">
+          <article>
+            <h3>1:1 chat</h3>
+            <p>Use for quick questions, private coordination, or sensitive context that does not belong in a broad channel.</p>
+            <p class="best-for">Best for: fast private follow-up.</p>
+          </article>
+          <article>
+            <h3>Group chat</h3>
+            <p>Use for temporary coordination with a small group. If the topic becomes recurring, move it to a channel.</p>
+            <p class="best-for">Best for: short-lived collaboration.</p>
+          </article>
+          <article>
+            <h3>Channel post</h3>
+            <p>Use when the team needs visibility, searchable history, threaded replies, or file context tied to a team.</p>
+            <p class="best-for">Best for: durable team discussion.</p>
+          </article>
+          <article>
+            <h3>Announcement</h3>
+            <p>Use for important updates with a clear audience, headline, decision, and next action.</p>
+            <p class="best-for">Best for: high-signal messages.</p>
+          </article>
+        </div>
+        <details open>
+          <summary>Step-by-step: post a useful channel update</summary>
+          <ol class="steps">
+            <li>Choose the team and channel that owns the topic.</li>
+            <li>Start a new conversation instead of replying to an unrelated thread.</li>
+            <li>Write a clear subject line or opening sentence.</li>
+            <li>Attach or link the file from its correct location.</li>
+            <li>Use @mentions sparingly: mention the team, channel, or person only when action is needed.</li>
+            <li>End with the decision needed, due date, or next owner.</li>
+          </ol>
+        </details>
+        <details>
+          <summary>Chat etiquette that saves time</summary>
+          <ul>
+            <li>Do not send a vague "Hi" and wait. Ask the question with enough context.</li>
+            <li>Use reactions for acknowledgement instead of creating extra messages.</li>
+            <li>Move long or complex topics to a meeting, channel post, Loop component, Planner task, or shared document.</li>
+            <li>Do not use chat as the only record for approvals, policy decisions, or final instructions.</li>
+          </ul>
+        </details>
+      </section>
+
+      <section id="meetings" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Meeting productivity</p>
+          <h2>Meetings and Calls</h2>
+          <p>A Teams meeting should produce decisions, notes, owners, and follow-up. If it does not, it becomes an expensive conversation with no record.</p>
+        </div>
+        <figure class="section-art screenshot-figure">
+          <img src="assets/teams-meeting.svg" alt="Synthetic Teams meeting screenshot with screen share, notes, and action items">
+          <figcaption>Synthetic Teams meeting screenshot: agenda, captions, notes, shared screen, and follow-up tasks keep meetings actionable.</figcaption>
+        </figure>
+        <div class="quick-grid">
+          <article>
+            <h3>Before the meeting</h3>
+            <p>Create a clear title, invite only required people, add agenda/context, attach pre-read files, and decide whether the meeting belongs in a channel.</p>
+          </article>
+          <article>
+            <h3>During the meeting</h3>
+            <p>Use chat for links, screen share for review, notes for decisions, captions when helpful, and recording only when policy allows and the value is clear.</p>
+          </article>
+          <article>
+            <h3>After the meeting</h3>
+            <p>Post recap, decisions, files, tasks, owners, and due dates in the channel or shared location where the work will continue.</p>
+          </article>
+        </div>
+        <details open>
+          <summary>Step-by-step: run a productive Teams meeting</summary>
+          <ol class="steps">
+            <li>Schedule from Teams or Outlook with a clear outcome in the title.</li>
+            <li>Add agenda bullets, decision points, and any pre-read links.</li>
+            <li>Start on time, confirm the goal, and assign a note taker or use collaborative notes if available.</li>
+            <li>Share the correct window or file, not the whole screen unless needed.</li>
+            <li>Capture decisions and action items as they happen.</li>
+            <li>End by confirming owners, deadlines, and where the recap will be posted.</li>
+            <li>Post follow-up in the channel or shared workspace within the same business day.</li>
+          </ol>
+        </details>
+      </section>
+
+      <section id="teams-files" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Files inside Teams</p>
+          <h2>Teams Files and Apps</h2>
+          <p>Files shared in a standard Teams channel are stored in the connected SharePoint site. Files shared in a chat are typically stored in the sharer's OneDrive. That difference matters for ownership and long-term access.</p>
+        </div>
+        <div class="match-infographic">
+          <article>
+            <h3>Channel file path</h3>
+            <div class="match-path">
+              <span>Teams Channel</span><b></b><span>Files tab</span><b></b><span>SharePoint Library</span>
+            </div>
+            <p>Use this path when the file belongs to the team or project and should survive beyond one person's employment or role.</p>
+          </article>
+          <article>
+            <h3>Chat file path</h3>
+            <div class="match-path three-way">
+              <span>Chat</span><b></b><span>Shared file</span><b></b><span>Sender's OneDrive</span>
+            </div>
+            <p>Use this path for short-term sharing, but move final team-owned files to SharePoint or a channel file library.</p>
+          </article>
+        </div>
+        <details open>
+          <summary>Step-by-step: manage a file shared in Teams</summary>
+          <ol class="steps">
+            <li>Open the file from the channel or chat.</li>
+            <li>Confirm whether it lives in SharePoint or OneDrive.</li>
+            <li>Use version history if you need to compare or restore changes.</li>
+            <li>Use comments and @mentions inside the file for review requests.</li>
+            <li>Move or copy the final file to the correct team-owned location when it becomes an official record.</li>
+          </ol>
+        </details>
+      </section>
+
+      <section id="onedrive-basics" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Personal file workspace</p>
+          <h2>OneDrive Basics</h2>
+          <p>OneDrive is your personal Microsoft 365 file space. It is best for drafts, personal working files, controlled sharing, sync, recovery, and files that are not yet ready for a team-owned library.</p>
+        </div>
+        <figure class="section-art screenshot-figure">
+          <img src="assets/onedrive-files.svg" alt="Synthetic OneDrive screenshot showing file list, sharing status, and sync controls">
+          <figcaption>Synthetic OneDrive screenshot: watch sharing status, ownership, sync state, and modified dates.</figcaption>
+        </figure>
+        <div class="quick-grid">
+          <article>
+            <h3>My files</h3>
+            <p>Personal work files and drafts you own. Share carefully because access can depend on your account and link settings.</p>
+          </article>
+          <article>
+            <h3>Shared</h3>
+            <p>Files shared with you or by you. Review this area when you cannot find a file in your own folders.</p>
+          </article>
+          <article>
+            <h3>Recycle bin</h3>
+            <p>Use when a file or folder was deleted by mistake and still falls within your organization's recovery window.</p>
+          </article>
+        </div>
+        <details open>
+          <summary>Step-by-step: organize your OneDrive</summary>
+          <ol class="steps">
+            <li>Create a small set of folders based on work type, not every meeting or every day.</li>
+            <li>Use clear file names with topic, date or version cue, and audience.</li>
+            <li>Move team-owned final documents into the right SharePoint library.</li>
+            <li>Clean old drafts monthly so search results stay useful.</li>
+            <li>Use shortcuts or sync for active libraries, but avoid syncing everything.</li>
+          </ol>
+        </details>
+      </section>
+
+      <section id="sync-share" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Access and links</p>
+          <h2>Syncing, Sharing, and Links</h2>
+          <p>Sharing is powerful and risky. The safest link is the narrowest link that lets the right people do the right work for the right amount of time.</p>
+        </div>
+        <figure class="section-art screenshot-figure">
+          <img src="assets/onedrive-sharing.svg" alt="Synthetic OneDrive sharing dialog showing link settings and permissions">
+          <figcaption>Synthetic sharing dialog: check audience, view/edit rights, expiration, and whether external access is allowed.</figcaption>
+        </figure>
+        <div class="status-simulator interactive-panel" aria-labelledby="statusSimulatorTitle">
+          <div class="interactive-copy">
+            <p class="mini-label">Sharing decision helper</p>
+            <h3 id="statusSimulatorTitle">Pick the right sharing option</h3>
+            <p>Click each permission type to understand when it fits and what to check before sending a link.</p>
+          </div>
+          <div class="status-choice-grid">
+            <button class="status-choice active" type="button" data-status-choice="specific">Specific people</button>
+            <button class="status-choice" type="button" data-status-choice="org">Organization link</button>
+            <button class="status-choice" type="button" data-status-choice="team">Existing access</button>
+            <button class="status-choice" type="button" data-status-choice="external">External guest</button>
+            <button class="status-choice" type="button" data-status-choice="view">View only</button>
+            <button class="status-choice" type="button" data-status-choice="edit">Can edit</button>
+            <button class="status-choice" type="button" data-status-choice="expire">Expire link</button>
+          </div>
+          <article class="status-detail" aria-live="polite">
+            <span id="statusDetailEyebrow">Specific people</span>
+            <h4 id="statusDetailTitle">Use the narrowest audience</h4>
+            <p id="statusDetailText">Specific people links are usually the safest option for sensitive or limited-audience files because the link works only for named recipients.</p>
+          </article>
+        </div>
+        <details open>
+          <summary>Step-by-step: share a OneDrive file safely</summary>
+          <ol class="steps">
+            <li>Select the file and choose Share.</li>
+            <li>Open link settings before copying or sending the link.</li>
+            <li>Choose the audience: specific people, existing access, people in your organization, or external users if allowed.</li>
+            <li>Choose view or edit access. Use view access unless collaboration requires editing.</li>
+            <li>Add expiration or password settings when your organization provides them and the file warrants it.</li>
+            <li>Add a short message explaining why the file is shared and what action is needed.</li>
+            <li>Review Manage access later to remove stale permissions.</li>
+          </ol>
+        </details>
+        <details>
+          <summary>Step-by-step: sync files without clutter</summary>
+          <ol class="steps">
+            <li>Sync only active work libraries or folders you need in File Explorer.</li>
+            <li>Use Files On-Demand if available so cloud files do not consume local storage until opened.</li>
+            <li>Check sync status icons before traveling or working offline.</li>
+            <li>Resolve sync conflicts immediately and avoid renaming or moving files while sync is still processing.</li>
+            <li>Stop syncing old libraries when the work ends.</li>
+          </ol>
+        </details>
+      </section>
+
+      <section id="version-recovery" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Undo and recover</p>
+          <h2>Version History and Recovery</h2>
+          <p>OneDrive and SharePoint can help recover from accidental edits, overwrites, and deletions. The key habit is to check version history before recreating work manually.</p>
+        </div>
+        <div class="quick-grid">
+          <article>
+            <h3>Version history</h3>
+            <p>Use when a file changed incorrectly, content disappeared, or you need to compare earlier versions.</p>
+          </article>
+          <article>
+            <h3>Recycle bin</h3>
+            <p>Use when a file or folder was deleted and you need to restore it within your organization's retention window.</p>
+          </article>
+          <article>
+            <h3>Restore OneDrive</h3>
+            <p>Use when many files were deleted, corrupted, or changed at once. Escalate to IT if you suspect ransomware or mass change activity.</p>
+          </article>
+        </div>
+        <details open>
+          <summary>Step-by-step: restore a previous file version</summary>
+          <ol class="steps">
+            <li>Open OneDrive or the SharePoint library that contains the file.</li>
+            <li>Select the file and open Version history.</li>
+            <li>Review the modified date, editor, and version notes if available.</li>
+            <li>Open the prior version to confirm it contains the content you need.</li>
+            <li>Restore the version or save a copy, depending on your organization's practice.</li>
+            <li>Tell collaborators what changed so they do not overwrite the restored version.</li>
+          </ol>
+        </details>
+      </section>
+
+      <section id="sharepoint-sites" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Team-owned workspace</p>
+          <h2>SharePoint Sites</h2>
+          <p>A SharePoint site is a team, department, project, or communication workspace for durable content. It can include document libraries, pages, news, lists, navigation, and permissions.</p>
+        </div>
+        <figure class="section-art screenshot-figure">
+          <img src="assets/sharepoint-site.svg" alt="Synthetic SharePoint site screenshot with navigation, news, and documents">
+          <figcaption>Synthetic SharePoint site screenshot: durable team information belongs in pages, libraries, lists, and governed navigation.</figcaption>
+        </figure>
+        <div class="callout-grid">
+          <article class="callout">
+            <h3>Team site</h3>
+            <p>Use for collaboration by a group that creates and edits content together, often connected to a Microsoft 365 group and Teams.</p>
+          </article>
+          <article class="callout">
+            <h3>Communication site</h3>
+            <p>Use for broad publishing where a smaller set of owners creates content for a larger audience.</p>
+          </article>
+          <article class="callout">
+            <h3>Hub site</h3>
+            <p>Use when related sites need common navigation, search scope, branding, and roll-up content. Usually managed by admins or site owners.</p>
+          </article>
+        </div>
+        <details open>
+          <summary>Step-by-step: create a useful SharePoint site request</summary>
+          <ol class="steps">
+            <li>Define the site purpose in one sentence.</li>
+            <li>Identify owner, backup owner, members, visitors, and whether guests are needed.</li>
+            <li>Decide if the site is for collaboration or broad publishing.</li>
+            <li>List the first libraries, pages, lists, or links the site needs.</li>
+            <li>Confirm retention, sensitivity, and naming requirements with your site owner or IT team.</li>
+            <li>Request the site using your organization's approved process.</li>
+          </ol>
+        </details>
+      </section>
+
+      <section id="libraries" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Document management</p>
+          <h2>Document Libraries</h2>
+          <p>A SharePoint document library is more than a folder. It can hold metadata, views, version history, approval states, alerts, flows, and permissions that help teams manage files at scale.</p>
+        </div>
+        <figure class="section-art screenshot-figure">
+          <img src="assets/sharepoint-library.svg" alt="Synthetic SharePoint document library screenshot with metadata columns and views">
+          <figcaption>Synthetic document library screenshot: use metadata, views, and version history so team files are findable and trustworthy.</figcaption>
+        </figure>
+        <div class="quick-grid">
+          <article>
+            <h3>Folders</h3>
+            <p>Use for familiar grouping when the structure is simple, but avoid deeply nested folders that hide files from search and views.</p>
+          </article>
+          <article>
+            <h3>Metadata</h3>
+            <p>Use columns such as department, document type, owner, status, effective date, or audience to make filtering and views more useful.</p>
+          </article>
+          <article>
+            <h3>Views</h3>
+            <p>Use views to show the same library by owner, status, category, recent updates, approvals, or audience without duplicating files.</p>
+          </article>
+        </div>
+        <details open>
+          <summary>Step-by-step: upload and classify a document</summary>
+          <ol class="steps">
+            <li>Open the correct SharePoint site and document library.</li>
+            <li>Choose Upload or drag files into the library.</li>
+            <li>Complete required metadata columns such as owner, status, category, or effective date.</li>
+            <li>Check version history and approval status if the library uses them.</li>
+            <li>Share the library link or file link rather than creating duplicate email attachments.</li>
+          </ol>
+        </details>
+        <details>
+          <summary>Step-by-step: create a view</summary>
+          <ol class="steps">
+            <li>Open the library and choose the view menu.</li>
+            <li>Create a new view and name it for the audience or task.</li>
+            <li>Select columns that matter for the workflow.</li>
+            <li>Add sorting, grouping, or filters, such as Status equals Approved.</li>
+            <li>Save the view and confirm whether it should be public or personal.</li>
+          </ol>
+        </details>
+      </section>
+
+      <section id="pages-lists" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Publishing and tracking</p>
+          <h2>Pages, News, and Lists</h2>
+          <p>Use SharePoint pages and news for readable knowledge. Use Microsoft Lists or SharePoint lists when the team needs structured rows, columns, status tracking, ownership, and filtered views.</p>
+        </div>
+        <div class="decision-grid">
+          <article>
+            <h3>Page</h3>
+            <p>Use for evergreen instructions, onboarding, FAQs, process overviews, and curated links.</p>
+            <p class="best-for">Best for: durable knowledge.</p>
+          </article>
+          <article>
+            <h3>News post</h3>
+            <p>Use for timely announcements that should appear in news rollups and alerts.</p>
+            <p class="best-for">Best for: timely updates.</p>
+          </article>
+          <article>
+            <h3>List</h3>
+            <p>Use for structured tracking such as requests, assets, issues, contacts, inventory, or approvals.</p>
+            <p class="best-for">Best for: rows and statuses.</p>
+          </article>
+          <article>
+            <h3>Document library</h3>
+            <p>Use for files that need version history, metadata, and document-centered collaboration.</p>
+            <p class="best-for">Best for: managed files.</p>
+          </article>
+        </div>
+        <details open>
+          <summary>Step-by-step: create a SharePoint page</summary>
+          <ol class="steps">
+            <li>Open the SharePoint site where the page belongs.</li>
+            <li>Choose New, then Page.</li>
+            <li>Pick a template, title the page clearly, and add sections.</li>
+            <li>Add web parts such as text, image, quick links, files, people, list, document library, or call to action.</li>
+            <li>Preview the page, check mobile readability, and publish when ready.</li>
+            <li>Share the page in Teams or email with a brief reason and next action.</li>
+          </ol>
+        </details>
+        <details>
+          <summary>Step-by-step: create a simple list</summary>
+          <ol class="steps">
+            <li>Open the site and choose New, then List.</li>
+            <li>Start from a blank list, existing list, template, or Excel file.</li>
+            <li>Add columns for the workflow: owner, status, due date, category, priority, and notes.</li>
+            <li>Create views such as Open items, My items, Due this week, or Completed.</li>
+            <li>Test with a few sample rows before asking the team to use it.</li>
+          </ol>
+        </details>
+      </section>
+
+      <section id="permissions" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Access control</p>
+          <h2>Permissions and Sharing</h2>
+          <p>Permissions determine who can see, edit, download, share, or manage content. End users should understand the common levels and know when to escalate to a site owner or IT.</p>
+        </div>
+        <div class="status-grid">
+          <article data-status="draft"><strong>Owner</strong><span>Full control of site settings, membership, pages, lists, libraries, and permissions.</span></article>
+          <article data-status="pending"><strong>Member</strong><span>Can usually add, edit, and delete content based on site configuration.</span></article>
+          <article data-status="approved"><strong>Visitor</strong><span>Can usually read content but not change files, pages, or lists.</span></article>
+          <article data-status="action"><strong>Guest</strong><span>External user access, if allowed by your organization and site settings.</span></article>
+        </div>
+        <details open>
+          <summary>Step-by-step: review file or folder access</summary>
+          <ol class="steps">
+            <li>Select the file, folder, library, or site content.</li>
+            <li>Open Manage access or the permissions panel.</li>
+            <li>Review direct access, links, groups, and guests.</li>
+            <li>Remove stale links or ask the owner to remove access when you do not have permission.</li>
+            <li>Use specific people links for sensitive items instead of broad organization links.</li>
+          </ol>
+        </details>
+        <details>
+          <summary>When to ask a site owner or IT</summary>
+          <ul>
+            <li>You need to share externally and external sharing is restricted.</li>
+            <li>A library has broken or confusing unique permissions.</li>
+            <li>A user can see content they should not see.</li>
+            <li>A site has no active owner.</li>
+            <li>Sensitive data may have been shared too broadly.</li>
+          </ul>
+        </details>
+      </section>
+
+      <section id="productivity-workflows" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Make the tools work together</p>
+          <h2>Productivity Workflows</h2>
+          <p>Productivity improves when teams use the tools as a connected system: discuss in Teams, draft in OneDrive, publish in SharePoint, track structured work in Lists or Planner, and clean up access regularly.</p>
+        </div>
+        <figure class="section-art screenshot-figure">
+          <img src="assets/productivity-flow.svg" alt="Synthetic workflow for planning, meeting, drafting, publishing, and governing in Microsoft 365">
+          <figcaption>A repeatable productivity workflow keeps work from getting trapped in chat, email attachments, or personal folders.</figcaption>
+        </figure>
+        <div class="report-capabilities">
+          <article>
+            <h3>Reduce email attachments</h3>
+            <p>Share cloud links, coauthor, comment, and manage access instead of emailing new copies.</p>
+          </article>
+          <article>
+            <h3>Use one working file</h3>
+            <p>Keep drafts in one place and use version history rather than creating v1, v2, final, and final-final copies.</p>
+          </article>
+          <article>
+            <h3>Make meetings searchable</h3>
+            <p>Store recap, decisions, notes, recording links, and tasks in the channel or site that owns the work.</p>
+          </article>
+          <article>
+            <h3>Clean up access</h3>
+            <p>Review broad links, inactive guests, old teams, stale files, and missing owners on a recurring schedule.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="scenario-guides" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Do the work</p>
+          <h2>Scenario-Based Guides</h2>
+          <p>Use these scenarios when teaching teams how to choose the right app and complete a common workflow from start to finish.</p>
+        </div>
+        <div class="report-builder interactive-panel" aria-labelledby="reportBuilderTitle">
+          <div class="interactive-copy">
+            <p class="mini-label">Scenario builder</p>
+            <h3 id="reportBuilderTitle">Choose a workflow</h3>
+            <p>Select a workflow to see what to set up, what to avoid, and where the final record should live.</p>
+          </div>
+          <div class="tab-buttons" role="tablist" aria-label="Productivity scenarios">
+            <button class="active" type="button" data-report-tab="project">Project launch</button>
+            <button type="button" data-report-tab="meeting">Meeting recap</button>
+            <button type="button" data-report-tab="cleanup">File cleanup</button>
+            <button type="button" data-report-tab="intranet">Intranet update</button>
+          </div>
+          <article class="report-tab-panel" aria-live="polite">
+            <span id="reportPanelEyebrow">Project launch</span>
+            <h4 id="reportPanelTitle">Create one project workspace</h4>
+            <p id="reportPanelText">Use Teams for discussion, a channel Files tab or SharePoint library for shared documents, Planner or Lists for task tracking, and a SharePoint page for final project knowledge.</p>
+            <ul id="reportPanelList">
+              <li>Create or use an approved team and channel.</li>
+              <li>Set project owners and meeting cadence.</li>
+              <li>Publish final documents to SharePoint.</li>
+            </ul>
+          </article>
+        </div>
+        <details open>
+          <summary>Step-by-step: launch a project workspace</summary>
+          <ol class="steps">
+            <li>Confirm whether an existing team or SharePoint site should be used.</li>
+            <li>Create or request a channel for the project if the topic is ongoing.</li>
+            <li>Add tabs for files, Planner or Tasks, important pages, and key dashboards if approved.</li>
+            <li>Create a document library folder or view only if it improves findability.</li>
+            <li>Post a kickoff message with goal, owner, timeline, decision log, and file location.</li>
+            <li>Schedule recurring meetings with notes and action items tied to the workspace.</li>
+            <li>At closeout, archive discussions, publish final files, and remove temporary access.</li>
+          </ol>
+        </details>
+        <details>
+          <summary>Step-by-step: move a final file from OneDrive to SharePoint</summary>
+          <ol class="steps">
+            <li>Open the OneDrive file and confirm it is the current final version.</li>
+            <li>Check version history and comments for unresolved changes.</li>
+            <li>Move or copy the file to the correct SharePoint library.</li>
+            <li>Complete required metadata and confirm library permissions.</li>
+            <li>Share the SharePoint link in Teams and remove unnecessary OneDrive sharing links.</li>
+          </ol>
+        </details>
+      </section>
+
+      <section id="governance" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Keep it clean</p>
+          <h2>Governance and Good Practice</h2>
+          <p>Good Microsoft 365 habits protect productivity and information security. End users do not need to be administrators to keep workspaces clean, findable, and safe.</p>
+        </div>
+        <figure class="section-art screenshot-figure">
+          <img src="assets/governance-dashboard.svg" alt="Synthetic Microsoft 365 governance dashboard with ownership, stale drafts, metadata, and broad links">
+          <figcaption>Governance is a routine: review owners, broad sharing links, stale drafts, site membership, metadata, and final file locations.</figcaption>
+        </figure>
+        <div class="principles">
+          <article><h3>Least access</h3><p>Give people the access they need, for the purpose they need, and remove access when the work ends.</p></article>
+          <article><h3>One source of truth</h3><p>Avoid duplicate final files. Publish the final record in the team-owned location.</p></article>
+          <article><h3>Clear ownership</h3><p>Make sure Teams, sites, files, pages, and lists have active business owners.</p></article>
+        </div>
+        <details open>
+          <summary>Monthly cleanup checklist</summary>
+          <ul class="checklist">
+            <li><label><input type="checkbox"> Review inactive Teams channels and decide whether to archive, hide, or keep active.</label></li>
+            <li><label><input type="checkbox"> Remove stale OneDrive sharing links from sensitive or completed work.</label></li>
+            <li><label><input type="checkbox"> Confirm SharePoint site owners and backup owners are still correct.</label></li>
+            <li><label><input type="checkbox"> Move final files from personal OneDrive folders into team-owned libraries.</label></li>
+            <li><label><input type="checkbox"> Check that important libraries use useful metadata and views.</label></li>
+          </ul>
+        </details>
+      </section>
+
+      <section id="troubleshooting" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Fix common issues</p>
+          <h2>Troubleshooting</h2>
+          <p>Most Microsoft 365 issues come from permissions, sync, duplicate files, wrong location, meeting settings, or unclear ownership. Check context before recreating the work.</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>Issue</th><th>Check first</th><th>Typical owner</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Cannot find a file</td><td>Search OneDrive, Teams, SharePoint, Shared with me, Recent, and the channel Files tab. Check whether it was shared by link.</td><td>File owner or site owner.</td></tr>
+              <tr><td>Cannot open a file</td><td>Permissions, account, guest status, expired link, sensitivity label, external sharing policy, or deleted file.</td><td>File owner, site owner, or IT.</td></tr>
+              <tr><td>Sync is stuck</td><td>Network, file path length, invalid characters, open Office files, storage space, duplicate names, or sync client status.</td><td>User first, then IT.</td></tr>
+              <tr><td>Too many Teams notifications</td><td>Channel notification settings, pinned channels, @mentions, activity filters, quiet hours, and meeting chat notifications.</td><td>User or team owner.</td></tr>
+              <tr><td>Meeting recording missing</td><td>Recording permissions, organizer settings, policy, storage location, expiration, and whether recording was actually started.</td><td>Organizer or IT.</td></tr>
+              <tr><td>SharePoint page outdated</td><td>Page owner, last modified date, source documents, audience targeting, and whether the content should be archived.</td><td>Page owner or site owner.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="glossary" class="guide-section">
+        <div class="section-heading">
+          <p class="section-label">Reference</p>
+          <h2>Glossary</h2>
+        </div>
+        <div class="glossary">
+          <article><h3>Channel</h3><p>A focused conversation and file area inside a Team. Standard channel files are stored in SharePoint.</p></article>
+          <article><h3>Chat</h3><p>A private 1:1 or group conversation. Chat-shared files usually live in the sharer's OneDrive.</p></article>
+          <article><h3>Document library</h3><p>A SharePoint file container with metadata, views, version history, and permissions.</p></article>
+          <article><h3>Guest</h3><p>An external person invited to collaborate under your organization's guest access rules.</p></article>
+          <article><h3>Metadata</h3><p>Columns or properties used to describe files or list items so they can be filtered, grouped, and managed.</p></article>
+          <article><h3>OneDrive shortcut</h3><p>A shortcut to shared content that appears in OneDrive, often used for active SharePoint libraries or folders.</p></article>
+          <article><h3>Permission link</h3><p>A sharing link that controls who can access content and whether they can view or edit.</p></article>
+          <article><h3>Version history</h3><p>A record of prior file versions that can be reviewed or restored when mistakes happen.</p></article>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <button class="to-top" type="button" aria-label="Back to top">
+    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <div id="imageLightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Expanded guide image" hidden>
+    <button class="lightbox-close" type="button" aria-label="Close image viewer">
+      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <figure class="lightbox-figure">
+      <img id="lightboxImage" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+  </div>
+
+  <div id="tileDetailModal" class="tile-detail-modal" role="dialog" aria-modal="true" aria-labelledby="tileDetailTitle" hidden>
+    <article class="tile-detail-card">
+      <button id="tileDetailClose" class="tile-detail-close" type="button" aria-label="Close detail panel">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <p id="tileDetailSection" class="mini-label"></p>
+      <h3 id="tileDetailTitle"></h3>
+      <p id="tileDetailBody"></p>
+      <ul id="tileDetailList"></ul>
+    </article>
+  </div>
+
+  <footer class="footer">
+    <p>Designed and created by Shane Shields as an HTML5 guide. Hosted on GitHub.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

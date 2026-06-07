@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Microsoft 365 governance dashboard</title>
+  <desc id="desc">Synthetic dashboard showing ownership, stale files, sharing, and retention checks.</desc>
+  <rect width="1280" height="720" fill="#f7f9fc"/>
+  <rect x="64" y="56" width="1152" height="608" rx="24" fill="#fff" stroke="#d8e0ea" stroke-width="2"/>
+  <text x="96" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="800" fill="#111827">Governance Checks</text>
+  <text x="96" y="154" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#52616f">A practical end-user view of what to keep clean in Teams, OneDrive, and SharePoint.</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <g transform="translate(96 220)">
+      <rect width="240" height="150" rx="18" fill="#eef2ff" stroke="#6264a7" stroke-width="3"/>
+      <text x="24" y="44" font-size="20" font-weight="800" fill="#111827">Team ownership</text>
+      <text x="24" y="84" font-size="42" font-weight="800" fill="#6264a7">98%</text>
+      <text x="24" y="118" font-size="15" fill="#4b5563">Teams with active owners</text>
+    </g>
+    <g transform="translate(376 220)">
+      <rect width="240" height="150" rx="18" fill="#e8f3ff" stroke="#0078d4" stroke-width="3"/>
+      <text x="24" y="44" font-size="20" font-weight="800" fill="#111827">Stale drafts</text>
+      <text x="24" y="84" font-size="42" font-weight="800" fill="#0078d4">12</text>
+      <text x="24" y="118" font-size="15" fill="#4b5563">OneDrive files to review</text>
+    </g>
+    <g transform="translate(656 220)">
+      <rect width="240" height="150" rx="18" fill="#e8f7f2" stroke="#008272" stroke-width="3"/>
+      <text x="24" y="44" font-size="20" font-weight="800" fill="#111827">Library metadata</text>
+      <text x="24" y="84" font-size="42" font-weight="800" fill="#008272">84%</text>
+      <text x="24" y="118" font-size="15" fill="#4b5563">Files with required fields</text>
+    </g>
+    <g transform="translate(936 220)">
+      <rect width="240" height="150" rx="18" fill="#fff4e5" stroke="#d97706" stroke-width="3"/>
+      <text x="24" y="44" font-size="20" font-weight="800" fill="#111827">Broad links</text>
+      <text x="24" y="84" font-size="42" font-weight="800" fill="#d97706">5</text>
+      <text x="24" y="118" font-size="15" fill="#4b5563">Links to narrow or expire</text>
+    </g>
+  </g>
+  <rect x="96" y="430" width="1080" height="154" rx="18" fill="#f8fafc" stroke="#d8e0ea"/>
+  <text x="126" y="476" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#111827">Monthly cleanup routine</text>
+  <text x="126" y="518" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#394150">Review owners, remove stale guest access, archive inactive channels, move durable content to SharePoint, and confirm critical files have version history.</text>
+  <text x="126" y="558" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#394150">End users should escalate unusual access, sensitive data exposure, or missing retention guidance to the site owner or IT team.</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">SharePoint document library screenshot</title>
+  <desc id="desc">Synthetic SharePoint document library screenshot showing metadata columns, views, sync, and version history.</desc>
+  <rect width="1280" height="720" fill="#f4fbf8"/>
+  <rect x="64" y="54" width="1152" height="612" rx="22" fill="#fff" stroke="#d8e0ea" stroke-width="2"/>
+  <rect x="64" y="54" width="1152" height="64" rx="22" fill="#008272"/>
+  <text x="96" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#fff">SharePoint Documents</text>
+  <rect x="96" y="146" width="1088" height="54" rx="14" fill="#f8fafc" stroke="#d8e0ea"/>
+  <text x="126" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">New</text>
+  <text x="204" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4b5563">Upload</text>
+  <text x="302" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4b5563">Sync</text>
+  <text x="374" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4b5563">Add shortcut to OneDrive</text>
+  <text x="594" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4b5563">Automate</text>
+  <text x="714" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4b5563">Integrate</text>
+  <g transform="translate(96 242)" font-family="Segoe UI, Arial, sans-serif">
+    <rect width="1088" height="56" fill="#f8fafc"/>
+    <text x="26" y="36" font-size="15" font-weight="700" fill="#4b5563">Name</text>
+    <text x="430" y="36" font-size="15" font-weight="700" fill="#4b5563">Department</text>
+    <text x="610" y="36" font-size="15" font-weight="700" fill="#4b5563">Status</text>
+    <text x="778" y="36" font-size="15" font-weight="700" fill="#4b5563">Owner</text>
+    <text x="930" y="36" font-size="15" font-weight="700" fill="#4b5563">Modified</text>
+    <line y1="56" x2="1088" y2="56" stroke="#e5e9f2"/>
+    <g transform="translate(0 56)">
+      <text x="26" y="40" font-size="17" fill="#111827">SOP - Customer Escalation.docx</text>
+      <text x="430" y="40" font-size="16" fill="#4b5563">Operations</text>
+      <text x="610" y="40" font-size="16" fill="#008272">Approved</text>
+      <text x="778" y="40" font-size="16" fill="#4b5563">A. Smith</text>
+      <text x="930" y="40" font-size="16" fill="#4b5563">Today</text>
+      <line y1="62" x2="1088" y2="62" stroke="#e5e9f2"/>
+    </g>
+    <g transform="translate(0 118)">
+      <text x="26" y="40" font-size="17" fill="#111827">Template - Project Charter.docx</text>
+      <text x="430" y="40" font-size="16" fill="#4b5563">PMO</text>
+      <text x="610" y="40" font-size="16" fill="#d97706">Draft</text>
+      <text x="778" y="40" font-size="16" fill="#4b5563">J. Lee</text>
+      <text x="930" y="40" font-size="16" fill="#4b5563">Jun 3</text>
+      <line y1="62" x2="1088" y2="62" stroke="#e5e9f2"/>
+    </g>
+    <g transform="translate(0 180)">
+      <text x="26" y="40" font-size="17" fill="#111827">FAQ - New Hire Tools.aspx</text>
+      <text x="430" y="40" font-size="16" fill="#4b5563">HR</text>
+      <text x="610" y="40" font-size="16" fill="#0078d4">Published</text>
+      <text x="778" y="40" font-size="16" fill="#4b5563">M. Rivera</text>
+      <text x="930" y="40" font-size="16" fill="#4b5563">May 31</text>
+    </g>
+  </g>
+  <rect x="96" y="548" width="510" height="54" rx="12" fill="#e8f7f2" stroke="#b8e1d6"/>
+  <text x="124" y="582" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#006b5d">Use views and metadata so people can find the right file without asking.</text>
+</svg>

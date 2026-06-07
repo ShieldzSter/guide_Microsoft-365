@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Teams workspace screenshot</title>
+  <desc id="desc">Synthetic Microsoft Teams screenshot showing teams, channels, chat, and files.</desc>
+  <rect width="1280" height="720" fill="#eff2f8"/>
+  <rect x="60" y="50" width="1160" height="620" rx="18" fill="#fff" stroke="#d8deea" stroke-width="2"/>
+  <rect x="60" y="50" width="1160" height="64" rx="18" fill="#464775"/>
+  <text x="94" y="91" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff">Microsoft Teams</text>
+  <rect x="974" y="68" width="200" height="28" rx="14" fill="#f5f6fb" opacity=".92"/>
+  <text x="1006" y="88" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#4b5563">Search</text>
+  <rect x="60" y="114" width="84" height="556" fill="#f6f7fb"/>
+  <g fill="#6264a7" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+    <circle cx="102" cy="166" r="20"/><text x="102" y="204" fill="#343b48">Activity</text>
+    <circle cx="102" cy="260" r="20"/><text x="102" y="298" fill="#343b48">Chat</text>
+    <circle cx="102" cy="354" r="20"/><text x="102" y="392" fill="#343b48">Teams</text>
+    <circle cx="102" cy="448" r="20"/><text x="102" y="486" fill="#343b48">Calendar</text>
+  </g>
+  <rect x="144" y="114" width="288" height="556" fill="#fbfbfd" stroke="#e5e9f2"/>
+  <text x="174" y="156" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" fill="#111827">Teams</text>
+  <text x="174" y="198" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">Operations Team</text>
+  <rect x="164" y="220" width="238" height="38" rx="8" fill="#edeffd"/>
+  <text x="190" y="245" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#202124">General</text>
+  <text x="190" y="290" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#4b5563">Announcements</text>
+  <text x="190" y="332" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#4b5563">Project Alpha</text>
+  <text x="190" y="374" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#4b5563">Files and SOPs</text>
+  <text x="174" y="438" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">Sales Team</text>
+  <text x="190" y="480" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#4b5563">Pipeline</text>
+  <text x="190" y="522" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#4b5563">Client Questions</text>
+  <rect x="432" y="114" width="788" height="556" fill="#fff"/>
+  <text x="470" y="158" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">General</text>
+  <rect x="470" y="188" width="390" height="40" rx="20" fill="#f1f3f9"/>
+  <text x="502" y="214" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#4b5563">Posts</text>
+  <text x="596" y="214" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4b5563">Files</text>
+  <text x="676" y="214" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4b5563">Planner</text>
+  <text x="776" y="214" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4b5563">Wiki</text>
+  <g transform="translate(470 264)">
+    <circle cx="24" cy="24" r="24" fill="#6264a7"/>
+    <rect x="70" y="0" width="612" height="104" rx="14" fill="#f7f8fc" stroke="#e4e8f0"/>
+    <text x="92" y="34" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#111827">Morgan Lee</text>
+    <text x="92" y="66" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4b5563">Please review the project plan before Friday. The current file is pinned in the Files tab.</text>
+  </g>
+  <g transform="translate(470 406)">
+    <rect width="700" height="168" rx="16" fill="#f7f8fc" stroke="#e4e8f0"/>
+    <text x="28" y="42" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#111827">Shared file preview</text>
+    <rect x="28" y="66" width="166" height="70" rx="10" fill="#e8f3ff" stroke="#b7d8fb"/>
+    <text x="54" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#111827">Project Plan.docx</text>
+    <rect x="214" y="66" width="166" height="70" rx="10" fill="#e8f7f2" stroke="#b8e1d6"/>
+    <text x="248" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#111827">Budget.xlsx</text>
+    <rect x="400" y="66" width="166" height="70" rx="10" fill="#fff4e5" stroke="#f3d19a"/>
+    <text x="426" y="108" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#111827">Slides.pptx</text>
+  </g>
+</svg>

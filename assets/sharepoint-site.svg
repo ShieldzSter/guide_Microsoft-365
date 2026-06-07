@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">SharePoint site screenshot</title>
+  <desc id="desc">Synthetic SharePoint team site screenshot with navigation, news, documents, and site owner controls.</desc>
+  <rect width="1280" height="720" fill="#eff7f5"/>
+  <rect x="58" y="50" width="1164" height="620" rx="22" fill="#fff" stroke="#d8e0ea" stroke-width="2"/>
+  <rect x="58" y="50" width="1164" height="64" rx="22" fill="#008272"/>
+  <text x="96" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#fff">SharePoint</text>
+  <text x="986" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#fff">Follow | Edit | Settings</text>
+  <text x="94" y="160" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#111827">Operations Hub</text>
+  <rect x="94" y="196" width="1080" height="44" rx="12" fill="#f8fafc" stroke="#d8e0ea"/>
+  <text x="124" y="224" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#111827">Home</text>
+  <text x="224" y="224" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4b5563">Documents</text>
+  <text x="356" y="224" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4b5563">Lists</text>
+  <text x="442" y="224" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4b5563">Pages</text>
+  <text x="532" y="224" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#4b5563">Site contents</text>
+  <g transform="translate(94 280)">
+    <rect width="500" height="260" rx="18" fill="#f8fafc" stroke="#d8e0ea"/>
+    <text x="28" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">News and announcements</text>
+    <rect x="28" y="76" width="208" height="128" rx="12" fill="#e8f7f2" stroke="#b8e1d6"/>
+    <text x="52" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#111827">Policy update</text>
+    <rect x="262" y="76" width="208" height="128" rx="12" fill="#e8f3ff" stroke="#b7d8fb"/>
+    <text x="286" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#111827">Training launch</text>
+  </g>
+  <g transform="translate(636 280)">
+    <rect width="538" height="260" rx="18" fill="#f8fafc" stroke="#d8e0ea"/>
+    <text x="28" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Documents</text>
+    <text x="28" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#111827">Standard Operating Procedures</text>
+    <line x1="28" y1="118" x2="500" y2="118" stroke="#d8e0ea"/>
+    <text x="28" y="152" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#111827">Templates</text>
+    <line x1="28" y1="174" x2="500" y2="174" stroke="#d8e0ea"/>
+    <text x="28" y="208" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#111827">Team calendar links</text>
+  </g>
+  <rect x="94" y="584" width="1080" height="42" rx="12" fill="#f4f6f8"/>
+  <text x="124" y="611" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#1f2937">Site rule: publish durable team knowledge here, then discuss updates in Teams.</text>
+</svg>

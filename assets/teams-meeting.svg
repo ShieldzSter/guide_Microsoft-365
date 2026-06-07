@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Teams meeting screenshot</title>
+  <desc id="desc">Synthetic Teams meeting screenshot with agenda, chat, screen sharing, captions, and follow-up notes.</desc>
+  <rect width="1280" height="720" fill="#111827"/>
+  <rect x="64" y="46" width="1152" height="628" rx="24" fill="#1f2937" stroke="#374151" stroke-width="2"/>
+  <text x="96" y="94" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#fff">Project Standup</text>
+  <rect x="96" y="126" width="754" height="422" rx="18" fill="#0f172a"/>
+  <rect x="122" y="154" width="334" height="172" rx="16" fill="#6264a7"/>
+  <text x="256" y="252" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="60" font-weight="700" fill="#fff">ML</text>
+  <rect x="490" y="154" width="334" height="172" rx="16" fill="#0078d4"/>
+  <text x="657" y="252" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="60" font-weight="700" fill="#fff">JS</text>
+  <rect x="122" y="352" width="702" height="150" rx="16" fill="#f8fafc"/>
+  <text x="150" y="394" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">Screen share: Draft launch plan</text>
+  <rect x="150" y="426" width="620" height="14" rx="7" fill="#d9e2ee"/>
+  <rect x="150" y="458" width="520" height="14" rx="7" fill="#d9e2ee"/>
+  <rect x="150" y="490" width="590" height="14" rx="7" fill="#d9e2ee"/>
+  <rect x="94" y="574" width="760" height="58" rx="29" fill="#111827"/>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">
+    <circle cx="180" cy="603" r="20" fill="#374151"/><text x="180" y="646">Mic</text>
+    <circle cx="272" cy="603" r="20" fill="#374151"/><text x="272" y="646">Camera</text>
+    <circle cx="364" cy="603" r="20" fill="#6264a7"/><text x="364" y="646">Share</text>
+    <circle cx="456" cy="603" r="20" fill="#374151"/><text x="456" y="646">Chat</text>
+    <circle cx="548" cy="603" r="20" fill="#374151"/><text x="548" y="646">Notes</text>
+    <circle cx="640" cy="603" r="20" fill="#b91c1c"/><text x="640" y="646">Leave</text>
+  </g>
+  <rect x="884" y="126" width="290" height="506" rx="18" fill="#fff"/>
+  <text x="912" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Meeting notes</text>
+  <rect x="912" y="198" width="228" height="42" rx="10" fill="#eef2ff"/>
+  <text x="930" y="225" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#111827">Agenda: blockers and owners</text>
+  <text x="912" y="282" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#111827">Action items</text>
+  <text x="912" y="318" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#4b5563">1. Update project file</text>
+  <text x="912" y="352" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#4b5563">2. Share recap in channel</text>
+  <text x="912" y="386" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#4b5563">3. Confirm next review date</text>
+  <rect x="912" y="444" width="228" height="104" rx="14" fill="#f8fafc" stroke="#d8e0ea"/>
+  <text x="930" y="478" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Live captions</text>
+  <text x="930" y="512" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#4b5563">Capture decisions, then post</text>
+  <text x="930" y="536" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#4b5563">follow-up in the channel.</text>
+</svg>
